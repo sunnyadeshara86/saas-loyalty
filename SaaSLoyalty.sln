@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{DA9116A0-7BB6-4FE0-80C4-19F177FADE1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6827438F-9488-4A55-8C16-8A1AF40BB73E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worker", "Worker", "{8276399C-C851-4AF1-A624-56394E45669F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.API", "src\API\TenantManagement.API\TenantManagement.API.csproj", "{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Application", "src\API\TenantManagement.Application\TenantManagement.Application.csproj", "{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Domain", "src\API\TenantManagement.Domain\TenantManagement.Domain.csproj", "{AC575D3D-81C9-4FA4-8533-F3300DA47109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Infrastructure", "src\API\TenantManagement.Infrastructure\TenantManagement.Infrastructure.csproj", "{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Application.Tests", "src\API\TenantManagement.Application.Tests\TenantManagement.Application.Tests.csproj", "{86123C1D-884B-4E90-B07A-A8F286D257CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Domain.Tests", "src\API\TenantManagement.Domain.Tests\TenantManagement.Domain.Tests.csproj", "{5F4D90FE-ABBB-47FB-8C29-9A989B771278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.API.Tests", "src\API\TenantManagement.API.Tests\TenantManagement.API.Tests.csproj", "{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Infrastructure.Tests", "src\API\TenantManagement.Infrastructure.Tests\TenantManagement.Infrastructure.Tests.csproj", "{A73A6B5E-4CCB-4606-A441-51A2EED0392D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86123C1D-884B-4E90-B07A-A8F286D257CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86123C1D-884B-4E90-B07A-A8F286D257CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86123C1D-884B-4E90-B07A-A8F286D257CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86123C1D-884B-4E90-B07A-A8F286D257CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{86123C1D-884B-4E90-B07A-A8F286D257CA} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {707FA48B-1B76-4BCD-A82A-725B5479C2C8}
+	EndGlobalSection
+EndGlobal

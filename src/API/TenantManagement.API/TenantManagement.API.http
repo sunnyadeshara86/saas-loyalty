@@ -1,0 +1,42 @@
+@TenantManagement_API_HostAddress = https://localhost:7035
+
+###
+
+### Create a new tenant
+# This test creates a new tenant and expects a 201 Created response with the tenant's details.
+POST {{TenantManagement_API_HostAddress}}/api/tenants
+Content-Type: application/json
+{
+  "name": "Acme Corporation",
+  "email": "contact@acmecorp.com"
+}
+
+###
+
+### Get tenant by ID
+# This test retrieves a tenant by ID. Replace `:tenantId` with an actual tenant ID.
+# It expects a 200 OK response with the tenant's details.
+GET {{TenantManagement_API_HostAddress}}/tenants/:tenantId
+
+###
+
+### Update tenant
+# This test updates a tenant's information. Replace `:tenantId` with an actual tenant ID.
+# It expects a 200 OK response with the updated tenant's details.
+PUT {{TenantManagement_API_HostAddress}}/tenants/:tenantId
+Content-Type: application/json
+
+{
+  "name": "Acme Corporation Updated",
+  "email": "newcontact@acmecorp.com"
+}
+
+###
+
+### Delete tenant
+# This test deletes a tenant by ID. Replace `:tenantId` with an actual tenant ID.
+# It expects a 204 No Content response.
+DELETE {{TenantManagement_API_HostAddress}}/tenants/:tenantId
+
+###
+
