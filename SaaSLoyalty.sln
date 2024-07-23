@@ -9,21 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6827438F-948
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Worker", "Worker", "{8276399C-C851-4AF1-A624-56394E45669F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.API", "src\API\TenantManagement.API\TenantManagement.API.csproj", "{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.API", "src\API\TenantManagement.API\TenantManagement.API.csproj", "{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Application", "src\API\TenantManagement.Application\TenantManagement.Application.csproj", "{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Application", "src\API\TenantManagement.Application\TenantManagement.Application.csproj", "{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Domain", "src\API\TenantManagement.Domain\TenantManagement.Domain.csproj", "{AC575D3D-81C9-4FA4-8533-F3300DA47109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Domain", "src\API\TenantManagement.Domain\TenantManagement.Domain.csproj", "{AC575D3D-81C9-4FA4-8533-F3300DA47109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Infrastructure", "src\API\TenantManagement.Infrastructure\TenantManagement.Infrastructure.csproj", "{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Infrastructure", "src\API\TenantManagement.Infrastructure\TenantManagement.Infrastructure.csproj", "{13543CC4-CD65-4F79-9403-9A7C3FC9BB71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Application.Tests", "src\API\TenantManagement.Application.Tests\TenantManagement.Application.Tests.csproj", "{86123C1D-884B-4E90-B07A-A8F286D257CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Application.Tests", "src\API\TenantManagement.Application.Tests\TenantManagement.Application.Tests.csproj", "{86123C1D-884B-4E90-B07A-A8F286D257CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Domain.Tests", "src\API\TenantManagement.Domain.Tests\TenantManagement.Domain.Tests.csproj", "{5F4D90FE-ABBB-47FB-8C29-9A989B771278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Domain.Tests", "src\API\TenantManagement.Domain.Tests\TenantManagement.Domain.Tests.csproj", "{5F4D90FE-ABBB-47FB-8C29-9A989B771278}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.API.Tests", "src\API\TenantManagement.API.Tests\TenantManagement.API.Tests.csproj", "{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.API.Tests", "src\API\TenantManagement.API.Tests\TenantManagement.API.Tests.csproj", "{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TenantManagement.Infrastructure.Tests", "src\API\TenantManagement.Infrastructure.Tests\TenantManagement.Infrastructure.Tests.csproj", "{A73A6B5E-4CCB-4606-A441-51A2EED0392D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TenantManagement.Infrastructure.Tests", "src\API\TenantManagement.Infrastructure.Tests\TenantManagement.Infrastructure.Tests.csproj", "{A73A6B5E-4CCB-4606-A441-51A2EED0392D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TenantManagement", "TenantManagement", "{44DF455B-7B11-4C7E-923D-3857BFF78500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationManagement", "ApplicationManagement", "{A9081E49-D140-4EAA-AA8A-36AAE0755D4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EditionManagement", "EditionManagement", "{8B411B79-96A8-4ADB-B04E-51635B30603F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,14 +74,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{AC575D3D-81C9-4FA4-8533-F3300DA47109} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{86123C1D-884B-4E90-B07A-A8F286D257CA} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{5F4D90FE-ABBB-47FB-8C29-9A989B771278} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
-		{A73A6B5E-4CCB-4606-A441-51A2EED0392D} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{633F3985-44CB-4DF4-9DDB-ACEE01ADBB68} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{1208FEC5-94AA-4964-88F0-AAC4A4A3C4C5} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{AC575D3D-81C9-4FA4-8533-F3300DA47109} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{13543CC4-CD65-4F79-9403-9A7C3FC9BB71} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{86123C1D-884B-4E90-B07A-A8F286D257CA} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{5F4D90FE-ABBB-47FB-8C29-9A989B771278} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{D7A59AB4-E299-42CC-9F88-5B3387C6E8B4} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{A73A6B5E-4CCB-4606-A441-51A2EED0392D} = {44DF455B-7B11-4C7E-923D-3857BFF78500}
+		{44DF455B-7B11-4C7E-923D-3857BFF78500} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{A9081E49-D140-4EAA-AA8A-36AAE0755D4A} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
+		{8B411B79-96A8-4ADB-B04E-51635B30603F} = {6827438F-9488-4A55-8C16-8A1AF40BB73E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {707FA48B-1B76-4BCD-A82A-725B5479C2C8}
