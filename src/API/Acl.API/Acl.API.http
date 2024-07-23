@@ -1,0 +1,6 @@
+@Acl.API_HostAddress = http://localhost:5253
+
+GET {{Acl.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

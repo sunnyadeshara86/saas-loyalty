@@ -1,0 +1,6 @@
+@Segment.API_HostAddress = http://localhost:5003
+
+GET {{Segment.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
