@@ -1,0 +1,6 @@
+@Import.API.Tests_HostAddress = http://localhost:5142
+
+GET {{Import.API.Tests_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
