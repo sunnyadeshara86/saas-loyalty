@@ -22,13 +22,6 @@ namespace TenantManagement.Domain.Entities
             IsActive = true;
         }
 
-        private Tenant()
-        {
-            Id = ObjectId.GenerateNewId();
-            Name = string.Empty;
-            Email = string.Empty;
-        }
-
         public ObjectId Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }

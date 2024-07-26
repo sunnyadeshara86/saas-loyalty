@@ -70,7 +70,7 @@ namespace TenantManagement.Application.Services
         public async Task<bool> DeleteTenantAsync(ObjectId id)
         {
             var filter = Builders<Tenant>.Filter.Eq(t => t.Id, id);
-             await _tenantRepository.DeleteAsync(id);
+            await _tenantRepository.DeleteAsync(id);
 
             return true;
         }

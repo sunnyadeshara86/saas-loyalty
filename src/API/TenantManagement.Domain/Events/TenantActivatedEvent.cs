@@ -1,12 +1,14 @@
-﻿namespace TenantManagement.Domain.Events
+﻿using MongoDB.Bson;
+
+namespace TenantManagement.Domain.Events
 {
     public class TenantActivatedEvent : DomainEvent
     {
-        public Guid TenantId { get; }
+        public ObjectId TenantId { get; }
         public string TenantName { get; }
         public DateTime ActivationDate { get; }
 
-        public TenantActivatedEvent(Guid tenantId, string tenantName, DateTime activationDate)
+        public TenantActivatedEvent(ObjectId tenantId, string tenantName, DateTime activationDate)
         {
             TenantId = tenantId;
             TenantName = tenantName;

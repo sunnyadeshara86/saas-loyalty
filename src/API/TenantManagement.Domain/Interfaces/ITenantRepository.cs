@@ -1,5 +1,4 @@
 using MongoDB.Bson;
-using System.Threading.Tasks;
 using TenantManagement.Domain.Entities;
 
 namespace TenantManagement.Domain.Interfaces

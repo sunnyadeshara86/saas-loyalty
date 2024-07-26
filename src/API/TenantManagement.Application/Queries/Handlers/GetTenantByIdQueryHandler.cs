@@ -1,10 +1,6 @@
 using MediatR;
-using MongoDB.Bson;
-using System.Threading;
-using System.Threading.Tasks;
 using TenantManagement.Application.DTOs;
 using TenantManagement.Application.Interfaces;
-using TenantManagement.Domain.Interfaces;
 
 namespace TenantManagement.Application.Queries.Handlers
 {

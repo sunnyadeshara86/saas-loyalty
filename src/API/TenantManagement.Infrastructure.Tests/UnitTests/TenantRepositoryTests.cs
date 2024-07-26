@@ -1,12 +1,7 @@
-using Moq;
-using MongoDB.Bson;
 using MongoDB.Driver;
-using System.Threading;
-using System.Threading.Tasks;
+using Moq;
 using TenantManagement.Domain.Entities;
-using TenantManagement.Domain.Interfaces;
 using TenantManagement.Infrastructure.Repositories;
-using Xunit;
 
 namespace TenantManagement.Infrastructure.Tests.UnitTests
 {
