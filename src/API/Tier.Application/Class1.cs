@@ -1,4 +1,4 @@
-﻿namespace Campaign.Domain
+﻿namespace Tier.Application
 {
     public class Class1
     {
