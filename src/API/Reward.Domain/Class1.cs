@@ -1,6 +1,7 @@
-﻿namespace Reward.Domain;
-
-public class Class1
+﻿namespace Reward.Domain
 {
+    public class Class1
+    {
 
+    }
 }

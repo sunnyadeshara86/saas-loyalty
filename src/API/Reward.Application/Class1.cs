@@ -1,6 +1,7 @@
-﻿namespace Reward.Application;
-
-public class Class1
+﻿namespace Reward.Application
 {
+    public class Class1
+    {
 
+    }
 }
